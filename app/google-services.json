@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "200357337072",
+    "project_id": "myonlinechatapplication",
+    "storage_bucket": "myonlinechatapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200357337072:android:8b17d476a5344614682f35",
+        "android_client_info": {
+          "package_name": "com.example.myonlinechatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200357337072-274st7o4dalkgrgbjk9r6lfd224aflsj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myonlinechatapplication",
+            "certificate_hash": "5add3e8b43dcfa978f9222bf3f4b2e49a20b1e91"
+          }
+        },
+        {
+          "client_id": "200357337072-dsvv9k4he7gij4c3vq4773lhvkcjfl4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_lji7v00MTbBl2L-HV1-YoMt2SJzilbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200357337072-dsvv9k4he7gij4c3vq4773lhvkcjfl4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
