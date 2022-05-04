@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity"
+    android:padding="5dp">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_baseline_send_24"
+        app:backgroundTint="#C4F3B7"
+        app:fabSize="mini"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/fab_send"
+        android:layout_margin="8dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/edt_input_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write Message"
+            android:background="@color/white"
+            android:textColorHint="#858585" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ListView
+        android:padding="4dp"
+        android:id="@+id/list_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/fab_send"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>
