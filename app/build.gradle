@@ -68,4 +68,6 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore:24.1.1'
     implementation 'com.google.firebase:firebase-storage:20.0.1'
     implementation 'com.google.firebase:firebase-functions:20.0.2'
+    //UI
+    implementation 'com.firebaseui:firebase-ui:0.6.0'
 }
