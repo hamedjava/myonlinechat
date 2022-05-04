@@ -1,14 +1,18 @@
 package com.example.myonlinechatapplication;
 
+import java.util.Date;
+
 public class UserModel {
     private long messageTime;
     private String messageUser;
     private String messageText;
 
-    public UserModel(long messageTime, String messageUser, String messageText) {
-        this.messageTime = messageTime;
-        this.messageUser = messageUser;
+    public UserModel(String messageText , String messageUser) {
         this.messageText = messageText;
+        this.messageUser = messageUser;
+
+        messageTime = new Date().getTime();
+
     }
 
     public UserModel() {
